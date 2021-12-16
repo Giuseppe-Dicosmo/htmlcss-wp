@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------ */
+.cotainer{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/* navigazione */
+header{
+    z-index: 1;
+}
+
+header div{
+    min-height: 145px;
+    width: 100%;
+}
+
+.logo{
+    width: 15%;
+    padding: 5px 0 25px 0;
+}
+
+a{
+    color: #919191;
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 15px;
+}
+
+a:hover{
+    color: black;
+}
+
+/* descrizione  */
+.container-1{
+    background: url("../img/banner.jpg")  center;
+    background-size: cover;
+    position: relative;
+    min-height: 500px;
+    margin: 20px 0;
+    border-radius: 15px;
+}
+
+/* .container-1::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    opacity: 0.3;
+} */
+
+/* .container-1::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.3;
+} */
+
+.over::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0.2;
+    border-radius: 15px;
+}
+
+.descrizione{
+    position: absolute;
+    bottom: 30px;
+    left:40px;
+    padding: 0 20px 40px 0;
+    width: 600px;
+    height: 150px;
+    color: white;
+    z-index: 1;
+}
+
+.descrizione p:first-of-type{
+    font-size: 36px;
+}
+
+.descrizione p{
+    font-size: 15px;
+}
+
+/* contenuto */
+.container-2{
+    /* background: #0286f4; */
+    width: 100%;
+}
+
+.clearflix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.description-top{
+    /*  */
+    padding: 20px 0;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.description-top h1{
+    font-size: 40px;
+}
+
+.description-top p{
+    font-size: 20px;
+    color: #919191;
+}
+
+.sidebar{
+    background: #abcfe7;
+    width: calc(20% - 20px);
+    height: 540px;
+    float: left;
+}
+
+.content{
+    background: #abcfe7;
+    width: 60%;
+    height: 540px;
+    margin: 0 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+
