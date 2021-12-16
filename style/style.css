@@ -10,6 +10,10 @@
     margin: 0 auto;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 /* navigazione */
 header{
     position: sticky;
@@ -96,7 +100,7 @@ a:hover{
 }
 
 .descrizione p:first-of-type{
-    font-size: 36px;
+    font-size: 33px;
 }
 
 .descrizione p{
