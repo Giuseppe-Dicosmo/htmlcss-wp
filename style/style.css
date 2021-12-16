@@ -6,16 +6,21 @@
 
 /* ------------ */
 .cotainer{
-    max-width: 1024px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 /* navigazione */
 header{
-    z-index: 1;
+    position: sticky;
+    top: 0;
+    z-index: 2;
 }
 
 header div{
+    background: white;
+    border-radius: 0% 0% 15px 15px;
+    box-shadow: 5px 5px 5px #dedede;
     min-height: 145px;
     width: 100%;
 }
@@ -100,7 +105,6 @@ a:hover{
 
 /* contenuto */
 .container-2{
-    /* background: #0286f4; */
     width: 100%;
 }
 
@@ -111,7 +115,6 @@ a:hover{
 }
 
 .description-top{
-    /*  */
     padding: 20px 0;
     width: 100%;
     margin-bottom: 20px;
@@ -125,20 +128,64 @@ a:hover{
     color: #919191;
 }
 
+/* ----------- */
 .sidebar{
-    background: #abcfe7;
     width: calc(20% - 20px);
     height: 540px;
+    position: relative;
     float: left;
 }
 
 .content{
-    background: #abcfe7;
     width: 60%;
-    height: 540px;
+    min-height: 540px;
     margin: 0 20px;
     margin-bottom: 20px;
+    position: relative;
     float: left;
+}
+
+section img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.over1::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+
+}
+
+section.sidebar div{
+    padding: 10px 0;
+}
+
+section.content div{
+    padding: 10px 0;
+}
+
+.grey{
+    color: #919191;
+}
+
+/* ringraziamenti */
+footer div{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+footer div span{
+    font-size: 30px;
+    color: red;
 }
 
 
